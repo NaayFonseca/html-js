@@ -1,4 +1,4 @@
-const idade = 18
+const idade = 60
 const mensagem = `idade: ${idade} anos`
 
 console.log(mensagem)
@@ -9,9 +9,19 @@ if (idade >= 60) {
     
     //console.log('Se a consição for atendida')
     
-} else {
-
-    console.log('não vei');
+} else if (idade >= 12 && idade <= 18) {
+    console.log('aborreecente');
     
-    //console.log('Se a consição NÃO for atendida')
+}   if (idade < 12) {
+    console.log('tira a catinga do mijo');
+    
+    
+} else {
+    console.log('adultero, segundo o chaves');
+    
 }
+
+
+
+    
+ 
